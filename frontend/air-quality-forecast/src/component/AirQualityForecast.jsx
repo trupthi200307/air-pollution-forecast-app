@@ -4,7 +4,7 @@ import { FaCalendarAlt } from "react-icons/fa";
 
 const fetchForecast = async (location, date) => {
   try {
-    const response = await fetch("http://localhost:5000/api/forecast", {
+    const response = await fetch("https://air-pollution-forecast-app.onrender.com/api/forecast", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
